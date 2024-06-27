@@ -7,3 +7,47 @@ body{
   /* font-weight: <weight>; */
   font-style: normal;
 }
+
+
+.navbar-container{
+  background-color: #262B37;
+
+}
+
+
+.about-cotainer{
+  background-color: #01BBBC;
+
+}
+
+.education-container{
+  background-color: #EEEEEE;
+
+}
+
+.bg-redtype{
+  
+}
+
+.bg-backgroundtype{
+  
+}
+
+.redtype-color{
+  
+}
+.circle{
+  
+  background-color: #7CB9E8;
+  height:  150px;
+  width: 150px;
+  border-radius: 50%;
+  
+  
+}
+
+
+.project-container{
+  background-color: #318CE7;
+
+}
