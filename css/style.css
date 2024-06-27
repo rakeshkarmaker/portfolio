@@ -1,0 +1,61 @@
+/* 8 2 BS4 GRID */
+
+.container {
+  border: 3px solid blue;
+  padding: 10px;
+}
+
+
+.container-fluid {
+  border: 3px solid red;
+  padding: 10px;
+}
+
+.col {
+  border: 3px solid red;
+}
+
+.col-5 {
+  border: 3px solid red;
+}
+
+.col-7 {
+  border: 3px solid red;
+}
+
+.col-4 {
+  border: 3px solid red;
+}
+
+.col-8 {
+  border: 3px solid red;
+}
+
+/* I specificly added these for learning purpose.
+ Here, when we specificly defined sizes for small and medium devices, the pc version was not showing, instead the small device version was showing for a large device size. The reason is very simple. when we specificly say size based on device sizw we have to specificly say for large as well, just like small devices.
+ ekhane je col-sm-12 use kora hoise seta to kaj kortese na.eta use korle pc teo col-12 apply hocce. but col-12 to just small device er khetre apply howar kotha
+
+ My Reply:
+Because you have not set any specific size for the larger devices.means,
+For general use: <div class="col-8  p-3">
+
+for specific defined for large mid and small devices:
+<div class="col-lg-8 col-sm-12 col-md-12 p-3"> */
+.col-lg-8 {
+  border: 3px solid red;
+}
+
+.col-sm-12 {
+  border: 3px solid red;
+}
+
+.col-md-12 {
+  border: 3px solid red;
+}
+
+
+
+/* 8 16 Navbar */
+.mynavbar{
+  background-color: red;
+}
