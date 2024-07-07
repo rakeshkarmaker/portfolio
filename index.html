@@ -13,7 +13,7 @@
   <!--Added  Bootstrap JS -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
   <!-- Added Our style.css file. -->
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="../css/style.css">
   <!-- Font Awsome -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
     integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
@@ -45,19 +45,22 @@
         <ul class="navbar-nav m-auto mb-2">
 
           <li class="nav-item ">
-            <a class="nav-link " aria-current="page" href="#home">Home</a>
+            <a class="nav-link " aria-current="page" href="../index.html">HOME</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " aria-current="page" href="../pages/about-me.html">ABOUT ME</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " aria-current="page" href="../pages/acheivement-certifications.html">ACHEIVEMENTS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " aria-current="page" href="../pages/my-portfolio.html">PORTFOLIO</a>
           </li>
           <li class="nav-item">
             <a class="nav-link " aria-current="page" href="#education">EDUCATION</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link " aria-current="page" href="#projects">PROJECTS</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link " aria-current="page" href="#portfollio">PORTFOLLIO</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link " aria-current="page" href="#gallery">GALLERY</a>
+            <a class="nav-link " aria-current="page" href="#skills">SKILLS</a>
           </li>
           <li class="nav-item">
             <a class="nav-link " aria-current="page" href="#contact">CONTACT</a>
@@ -67,9 +70,10 @@
       </div>
     </div>
   </nav>
+  <!-- ## Nav Bar Section Ended -->
 
 
-  <!-- ## About Me Section -->
+  <!-- ## Intro Banner Me Section -->
   <div class="about-cotainer">
     <div class="container">
       <!-- A row added       -->
@@ -77,9 +81,17 @@
         <!-- left data portion of the about me section -->
         <div class="col-md-9 py-5 text-white">
           <h1>Hi, I'm Rakesh Karmaker</h1>
-          <h4>Welcome to my E-portfollio.</h4>
-          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-          </p>
+          <h4>Analytical | Problem solver | Critical thinker</h4>
+          <p>I am an aspiring and dedicated undergraduate student with a strong foundation
+            in Software Engineering and Information System. By specializing in both Software Engineering and Information
+            Systems, I have demonstrated a commitment to academic excellence at American International University
+            Bangladesh. </p>
+          <!-- 2.0- Buttons for CV and Poject added -->
+          <div class="d-flex align-items-center justify-content-center justify-content-lg-start pt-5">
+            <a href="../pages/my-cv.html" class="btn btn-outline-light m-2 ">Download CV</a>
+            <a href="../pages/my-portfolio.html" class="btn btn-outline-light m-2 ">View Project</a>
+            
+          </div>
         </div>
         <!-- Image section in Right side of About Me -->
         <div class="col-md-3 my-5">
@@ -90,143 +102,332 @@
     </div>
 
   </div>
+  <!-- ## Intro Banner Me Section End -->
 
 
 
-
-
-  <!-- ## Education Section -->
-  <div class="education-container mt-2" id="education">
-    <div class="container pt-4">
-      <div class="row py-3">
-
-        <div class="col text-center ">
-          <h2 class="bg-bluetype font-weight-bolder">Academic Background</h2>
-        </div>
-
-        <!-- # First Row -->
-
-        <div class="row py-4 my-4 align-items-center justify-content-center">
-
-          <!--  Academic Year Circle Section -->
-          <div class="col-md-2">
-            <div class="circle text-center text-white">
-              <p class="py-5">January 1,2022 <br>- <br>
-                Augest 31,2025</p>
-
-            </div>
-
-          </div>
-
-          <!-- Academic details section -->
-          <div class="col-md-9 pt-3">
-
-            <div class="card ml-3">
-              <div class="card-body">
-                <p>
-                  Presently studing on Computer Science & Engineering (CSE) at American International
-                  University-Bangladesh.
-                </p>
-                <p>
-                  CGPA: 3.86 out of 4.00
-                </p>
-              </div>
-            </div>
-
-
-          </div>
-
-        </div>
-
-
-        <!-- # Second Row -->
-
-        <div class="row py-2 py-4 my-4 align-items-center justify-content-center">
-
-          <!--  Academic Year Circle Section -->
-          <div class="col-md-2">
-            <div class="circle text-center text-white">
-              <p class="py-5">April 01,2020 <br>-<br>
-                May 31,2018</p>
-
-            </div>
-
-          </div>
-
-          <!-- Academic details section -->
-          <div class="col-md-9 pt-3">
-
-            <div class="card ml-3">
-              <div class="card-body">
-                <p>
-                  Studied at Udayan Higher Secondary School & College
-                </p>
-                <p>
-                  GPA: 5.00 out of 5.00
-                </p>
-              </div>
-            </div>
-
-
-          </div>
-
-        </div>
-
+  <!--##V2.0 - Qualification Start -->
+  <!-- Education  Start -->
+  <div class="container-fluid py-5" id="education">
+    <div class="container">
+      <div class="position-relative d-flex align-items-center justify-content-center">
+        <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">Quality</h1>
+        <h1 class="position-absolute text-uppercase text-primary">Education & Expericence</h1>
       </div>
+      <div class="row align-items-center">
+        <div class="col-lg-6">
+          <h3 class="mb-4">My Education</h3>
+          <div class="border-left border-primary pt-2 pl-4 ml-2">
+            <div class="position-relative mb-4">
+              <i class="far fa-dot-circle text-primary position-absolute" style="top: 2px; left: -32px;"></i>
+              <h5 class="font-weight-bold mb-1">B.Sc. In CSE</h5>
+              <p class="mb-2"><strong>American International University Bangladesh</strong> | <small>2022 - 2025</small>
+              </p>
+              <p>Honors: Magna cum laude <br> CGPA: 3.84/4.00 <br>
+                • Earned Dean's List Award in the following semesters: 2021-2022 Spring, 2022-2024 Fall, 2022-2023
+                Spring.
+              </p>
+            </div>
+            <div class="position-relative mb-4">
+              <i class="far fa-dot-circle text-primary position-absolute" style="top: 2px; left: -32px;"></i>
+              <h5 class="font-weight-bold mb-1">Higher Secondary School Certificate (HSC)</h5>
+              <p class="mb-2"><strong>Udayan Uchcha Madhyamik Bidyalaya</strong> | <small>2018 - 2020</small></p>
+              <p>GPA: 5.00/5.00</p>
+            </div>
+            <div class="position-relative mb-4">
+              <i class="far fa-dot-circle text-primary position-absolute" style="top: 2px; left: -32px;"></i>
+              <h5 class="font-weight-bold mb-1">Secondary School Certificate (SSC)</h5>
+              <p class="mb-2"><strong>Dhaka Collegiate School</strong> | <small>2009 - 2018</small></p>
+              <p>GPA: 5.00/5.00</p>
+            </div>
+          </div>
+        </div>
+        <!-- Education  end -->
 
+
+        <!-- Expericence  start -->
+        <div class="col-lg-6">
+          <h3 class="mb-4">My Expericence</h3>
+          <div class="border-left border-primary pt-2 pl-4 ml-2">
+            <!-- job 01 -->
+            <div class="position-relative mb-4">
+              <i class="far fa-dot-circle text-primary position-absolute" style="top: 2px; left: -32px;"></i>
+              <h5 class="font-weight-bold mb-1">Web Developer</h5>
+              <p class="mb-2"><strong> AIUBReD</strong> | <small>2023 - Present</small></p>
+              <p>Development and maintenance of the official website AIUBReD with HTML5, CSS3, Bootstrap5 and JavaScript. I have also csollaborated with team members to enhance project functionalities and user experience</p>
+            </div>
+
+            <!-- job 02 -->
+            <div class="position-relative mb-4">
+              <i class="far fa-dot-circle text-primary position-absolute" style="top: 2px; left: -32px;"></i>
+              <h5 class="font-weight-bold mb-1">Web Designer</h5>
+              <p class="mb-2"><strong>Diamond Mart</strong> | <small>2021 - 2023</small></p>
+              <p>•	Designed and developed a fully functional website on WordPress CMS by using plugin tools such as Elementor Website Builder, Astra pro theme and Flatsome theme. </p>
+              <p>•	Designed the UI and implementing payment Bkash, Nagad payment API connection.</p>
+              <p>•	Perform Search Engine Optimization tasks using tools like Yoast SEO or manually.</p>
+              <p>•	Manage hosting and domain of the website along with the Facebook page.</p>
+            </div>
+
+          </div>
+        </div>
+      </div>
     </div>
+  </div>
+  <!-- Expericence  end -->
+
+  <!-- ##V2.0 -Qualification End -->
+
+  <!-- Area of Expertizes -->
+  <div class="container">
+    <div class="position-relative d-flex align-items-center justify-content-center">
+      <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">AREA OF EXPERTIZES</h1>
+      <h1 class="position-absolute text-uppercase text-primary">MY SKILLS</h1>
+    </div>
+
+
+    <div class="row">
+      <div class="col-lg-3 col-md-6 col-sm-12">
+        <h3 class="expertise-category">Frameworks:</h3>
+        <div class="expertise-item">ASP.NET</div>
+        <div class="expertise-item">Angular JS</div>
+        <div class="expertise-item">Bootstrap</div>
+        <div class="expertise-item">.NET WPF</div>
+      </div>
+      
+      <div class="col-lg-3 col-md-6 col-sm-12">
+        <h3 class="expertise-category">Programming Languages:</h3>
+        <div class="expertise-item">C#</div>
+        <div class="expertise-item">C++</div>
+        <div class="expertise-item">HTML5</div>
+        <div class="expertise-item">CSS3</div>
+        <div class="expertise-item">JavaScript</div>
+        <div class="expertise-item">Python</div>
+        <div class="expertise-item">PHP</div>
+      </div>
+      
+      <div class="col-lg-3 col-md-6 col-sm-12">
+        <h3 class="expertise-category">Software:</h3>
+        <div class="expertise-item">Visual Studio</div>
+        <div class="expertise-item">Git</div>
+        <div class="expertise-item">MS Office</div>
+        <div class="expertise-item">MySQL</div>
+      </div>
+      <div class="col-lg-3 col-md-6 col-sm-12">
+        <h3 class="expertise-category">Language Skills:</h3>
+        <div class="expertise-item">Bangla</div>
+        <div class="expertise-item">English</div>
+        <div class="expertise-item">Hindi</div>
+        <div class="expertise-item">German 5</div>
+      </div>
+    </div>
+    
+
+
   </div>
 
 
+  <!-- ##V2.0 -Skill Start -->
+  <div class="container-fluid py-5" id="skills">
+    <div class="container">
+      <div class="position-relative d-flex align-items-center justify-content-center">
+        <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">Domains of Expertizes</h1>
+        <h1 class="position-absolute text-uppercase text-primary">Work Area</h1>
+      </div>
+      <div class="row align-items-center">
+        <div class="col-md-6">
+          <div class="skill mb-4">
+            <div class="d-flex justify-content-between">
+              <h5 class="font-weight-bold">Software Engineering</h5>
+              <h6 class="font-weight-bold">95%</h6>
+            </div>
+            <div class="progress">
+              <div class="progress-bar bg-primary" role="progressbar" aria-valuenow="95" aria-valuemin="0"
+                aria-valuemax="100"></div>
+            </div>
+          </div>
+          <div class="skill mb-4">
+            <div class="d-flex justify-content-between">
+              <h6 class="font-weight-bold">Frontend</h6>
+              <h6 class="font-weight-bold">85%</h6>
+            </div>
+            <div class="progress">
+              <div class="progress-bar bg-warning" role="progressbar" aria-valuenow="85" aria-valuemin="0"
+                aria-valuemax="100"></div>
+            </div>
+          </div>
+          <div class="skill mb-4">
+            <div class="d-flex justify-content-between">
+              <h6 class="font-weight-bold">Backend</h6>
+              <h6 class="font-weight-bold">90%</h6>
+            </div>
+            <div class="progress">
+              <div class="progress-bar bg-danger" role="progressbar" aria-valuenow="90" aria-valuemin="0"
+                aria-valuemax="100"></div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="skill mb-4">
+            <div class="d-flex justify-content-between">
+              <h5 class="font-weight-bold">Information System</h5>
+              <h6 class="font-weight-bold">90%</h6>
+            </div>
+            <div class="progress">
+              <div class="progress-bar bg-danger" role="progressbar" aria-valuenow="90" aria-valuemin="0"
+                aria-valuemax="100"></div>
+            </div>
+          </div>
+          <div class="skill mb-4">
+            <div class="d-flex justify-content-between">
+              <h6 class="font-weight-bold">Machine Learning</h6>
+              <h6 class="font-weight-bold">95%</h6>
+            </div>
+            <div class="progress">
+              <div class="progress-bar bg-dark" role="progressbar" aria-valuenow="95" aria-valuemin="0"
+                aria-valuemax="100"></div>
+            </div>
+          </div>
+          <div class="skill mb-4">
+            <div class="d-flex justify-content-between">
+              <h6 class="font-weight-bold">Data Science</h6>
+              <h6 class="font-weight-bold">85%</h6>
+            </div>
+            <div class="progress">
+              <div class="progress-bar bg-info" role="progressbar" aria-valuenow="85" aria-valuemin="0"
+                aria-valuemax="100"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Skill End -->
 
-  <!-- ## My Project Section -->
+
+  <!-- ##V2.0 -Services Start -->
+  <div class="container-fluid pt-5" id="service">
+    <div class="container">
+      <div class="position-relative d-flex align-items-center justify-content-center">
+        <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">Service</h1>
+        <h1 class="position-absolute text-uppercase text-primary">My Services</h1>
+      </div>
+      <div class="row pb-3">
+        <div class="col-lg-4 col-md-6 text-center mb-5">
+          <div class="d-flex align-items-center justify-content-center mb-4">
+            <i class="fa fa-2x fa-laptop service-icon bg-primary text-white mr-3"></i>
+            <h4 class="font-weight-bold m-0">Web Design</h4>
+          </div>
+          <p>Justo sit justo eos amet tempor amet clita amet ipsum eos elitr. Amet lorem lorem lorem est amet labore
+            eirmod erat clita</p>
+          <a class="border-bottom border-primary text-decoration-none" href="">Read More</a>
+        </div>
+        <div class="col-lg-4 col-md-6 text-center mb-5">
+          <div class="d-flex align-items-center justify-content-center mb-4">
+            <i class="fa fa-2x fa-laptop-code service-icon bg-primary text-white mr-3"></i>
+            <h4 class="font-weight-bold m-0">Web Development</h4>
+          </div>
+          <p>Justo sit justo eos amet tempor amet clita amet ipsum eos elitr. Amet lorem lorem lorem est amet labore
+            eirmod erat clita</p>
+          <a class="border-bottom border-primary text-decoration-none" href="">Read More</a>
+        </div>
+        <div class="col-lg-4 col-md-6 text-center mb-5">
+          <div class="d-flex align-items-center justify-content-center mb-4">
+            <i class="fab fa-2x fa-android service-icon bg-primary text-white mr-3"></i>
+            <h4 class="font-weight-bold m-0">Apps Design</h4>
+          </div>
+          <p>Justo sit justo eos amet tempor amet clita amet ipsum eos elitr. Amet lorem lorem lorem est amet labore
+            eirmod erat clita</p>
+          <a class="border-bottom border-primary text-decoration-none" href="">Read More</a>
+        </div>
+        <div class="col-lg-4 col-md-6 text-center mb-5">
+          <div class="d-flex align-items-center justify-content-center mb-4">
+            <i class="fab fa-2x fa-apple service-icon bg-primary text-white mr-3"></i>
+            <h4 class="font-weight-bold m-0">Apps Development</h4>
+          </div>
+          <p>Justo sit justo eos amet tempor amet clita amet ipsum eos elitr. Amet lorem lorem lorem est amet labore
+            eirmod erat clita</p>
+          <a class="border-bottom border-primary text-decoration-none" href="">Read More</a>
+        </div>
+        <div class="col-lg-4 col-md-6 text-center mb-5">
+          <div class="d-flex align-items-center justify-content-center mb-4">
+            <i class="fa fa-2x fa-search service-icon bg-primary text-white mr-3"></i>
+            <h4 class="font-weight-bold m-0">SEO</h4>
+          </div>
+          <p>Justo sit justo eos amet tempor amet clita amet ipsum eos elitr. Amet lorem lorem lorem est amet labore
+            eirmod erat clita</p>
+          <a class="border-bottom border-primary text-decoration-none" href="">Read More</a>
+        </div>
+        <div class="col-lg-4 col-md-6 text-center mb-5">
+          <div class="d-flex align-items-center justify-content-center mb-4">
+            <i class="fa fa-2x fa-edit service-icon bg-primary text-white mr-3"></i>
+            <h4 class="font-weight-bold m-0">Content Creating</h4>
+          </div>
+          <p>Justo sit justo eos amet tempor amet clita amet ipsum eos elitr. Amet lorem lorem lorem est amet labore
+            eirmod erat clita</p>
+          <a class="border-bottom border-primary text-decoration-none" href="">Read More</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- ##V2.0 -Services End -->
+
+  <!-- ## My portfolio Section -->
   <div class="project-container m-auto">
 
-    <!-- # Project Title row -->
+    <!-- # portfolio Title row -->
     <div class="container pt-4">
       <div class="row py-3">
-        <div class="col">
-          <h2 class="text-white text-center text-center font-weight-bolder">Projects</h2>
+        <div class="position-relative d-flex align-items-center justify-content-center">
+          <h1 class="display-1 text-uppercase" style="-webkit-text-stroke: 1px #69aef2; color: #318CE7;">Portfolio</h1>
+          <h1 class="position-absolute text-uppercase text-white">My Project Portfolio</h1>
         </div>
 
       </div>
 
-      <!-- # Project showcase row -->
+      <!-- # portfolio showcase row -->
       <div class="row">
 
-        <div class="col-md-3">
-          <img src="/img/dummy-image-square.webp" alt="error loading images"
-            class="img-fluid border border-4 border-dark">
-          <a href="" class="text-white">Lorem ipsum dolor sit amet.
+        <div class="col-md-3 jus">
+          <img src="/img/hotel-management-system.jpg" alt="error loading images"
+          class="img-fluid img-fixed-height border border-4 border-dark">
+          <a href="" class="text-white">Hotel Management System
           </a>
-          <p> This is my first project</p>
+          <p> A simple Hotel Management system using Java and JavaFX.</p>
         </div>
 
         <div class="col-md-3">
-          <img src="/img/dummy-image-square.webp" alt="error loading images"
-            class="img-fluid border border-4 border-dark">
-          <a href="" class="text-white">Lorem ipsum dolor sit amet.
+          <img src="/img/healthcare-management-system.jpg" alt="error loading images"
+          class="img-fluid img-fixed-height border border-4 border-dark">
+          <a href="" class="text-white">Healthcare Management System
           </a>
-          <p> This is my first project</p>
+          <p> A comprehensive Healthcare Management System to streamline various administrative and clinical operations. </p>
         </div>
 
         <div class="col-md-3">
-          <img src="/img/dummy-image-square.webp" alt="error loading images"
-            class="img-fluid border border-4 border-dark">
-          <a href="" class="text-white">Lorem ipsum dolor sit amet.
+          <img src="/img/tour-planner&guide-system.jpg" alt="error loading images"
+          class="img-fluid img-fixed-height border border-4 border-dark">
+          <a href="" class="text-white">Tour Planner and Guidance Mobile App
           </a>
-          <p> This is my first project</p>
+          <p> A Tour Planner and Guidance Software to facilitate booking and managing travel itineraries.</p>
         </div>
 
         <div class="col-md-3">
-          <img src="/img/dummy-image-square.webp" alt="error loading images"
-            class="img-fluid border border-4 border-dark">
-          <a href="" class="text-white">Lorem ipsum dolor sit amet.
+          <img src="/img/farm-management-system.jpg" alt="error loading images"
+          class="img-fluid img-fixed-height border border-4 border-dark">
+          <a href="" class="text-white">Farm Management System
           </a>
-          <p> This is my first project</p>
+          <p> A database proeject built with oracle SQL where various farm management and data storing database were constructed.</p>
         </div>
 
 
+
+      </div>
+
+      <div class="row py-2 text-center">
+        
+        <div>
+          <a href="../pages/my-portfolio.html" class="btn btn-outline-light m-2 ">VIEW PORTFOLIO</a>
+        </div>
 
       </div>
 
@@ -235,90 +436,20 @@
 
     </div>
   </div>
-
-
-  <!-- ## My Portfolio Section -->
-  <div class="container">
-    <div class="row m-4 py-5">
-      <div class="col text-center">
-        <h2 class="font-weight-bolder bg-bluetype">Portfolio</h2>
-      </div>
-    </div>
-
-    <!-- First Portfolio Line Section -->
-    <div class="row py-4">
-
-      <div class="col-md-4">
-        <div class="card">
-          <div class="card-body">
-            <img src="/img/dummy-image-square.webp" alt="" class="img-fluid">
-          </div>
-        </div>
-      </div>
-
-      <div class="col-md-4">
-        <div class="card">
-          <div class="card-body">
-            <img src="/img/dummy-image-square.webp" alt="" class="img-fluid">
-          </div>
-        </div>
-      </div>
-
-
-      <div class="col-md-4">
-        <div class="card">
-          <div class="card-body">
-            <img src="/img/dummy-image-square.webp" alt="" class="img-fluid">
-          </div>
-        </div>
-      </div>
-
-
-    </div>
-
-
-    <!-- 2nd Portfolio Line Section -->
-    <div class="row py-4">
-
-      <div class="col-md-4">
-        <div class="card">
-          <div class="card-body">
-            <img src="/img/dummy-image-square.webp" alt="" class="img-fluid">
-          </div>
-        </div>
-      </div>
-
-      <div class="col-md-4">
-        <div class="card">
-          <div class="card-body">
-            <img src="/img/dummy-image-square.webp" alt="" class="img-fluid">
-          </div>
-        </div>
-      </div>
-
-
-      <div class="col-md-4">
-        <div class="card">
-          <div class="card-body">
-            <img src="/img/dummy-image-square.webp" alt="" class="img-fluid">
-          </div>
-        </div>
-      </div>
-
-
-    </div>
-
-
-  </div>
+  <!-- ## My Project Section Ends -->
 
 
 
-  <!-- Form Section -->
-  <div class="container">
+  <!-- Contact Start -->
+   <!-- Form Section -->
+   <div class="container" id="contact">
 
     <div class="row m-4 py-5">
       <div class="col text-center">
-        <h2 class="font-weight-bolder bg-bluetype">Contact Me</h2>
+        <div class="position-relative d-flex align-items-center justify-content-center">
+          <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">CONTACT FORM</h1>
+          <h1 class="position-absolute text-uppercase text-primary">CONTACT ME</h1>
+        </div>      
       </div>
     </div>
 
@@ -374,63 +505,33 @@
         </div>
       </div>
     </div>
-  </div>
+  </div>   
+  <!-- Contact End -->
 
 
-
-  <!-- Footer Section -->
-  <section>
-
-    <div class="footer">
-      <div class="container">
-
-        <div class="row py-5 text-center text-white">
-          <h2>"Part of the journey is the end."</h2>
-          <h4>-Ironman</h4>
-        </div>
-
-
-        <div class="row pt-4 text-center text-white">
-          <p>&copy;2024 | All Rights Rerserved by Rakesh Karmaker</p>
-
-        </div>
-
-        <!-- Social media content of footer Section -->
-        <div class="row">
-          <div class="col text-center">
-
-            <!-- Facebook Icon Section -->
-            <div class="iconCircle">
-              <i class="fa-brands fa-facebook-f"></i>
-            </div>
-
-            <!-- Linedin Icon Section -->
-            <div class="iconCircle">
-              <i class="fa-brands fa-linkedin-in"></i>
-            </div>
-
-            <!-- Github Icon Section -->
-            <div class="iconCircle">
-              <i class="fa-brands fa-github"></i>
-            </div>
-
-            <!-- Email Icon Section -->
-            <div class="iconCircle">
-              <i class="fa-solid fa-envelope"></i>
-            </div>
-
+  <!-- Footer Start -->
+  <div class="container-fluid bg-primary text-white mt-5 py-5 px-sm-3 px-md-5">
+      <div class="container text-center py-5">
+          <div class="d-flex justify-content-center mb-4">
+              <a class="btn btn-light btn-social m-2" href="#"><i class="fab fa-twitter"></i></a>
+              <a class="btn btn-light btn-social m-2" href="#"><i class="fab fa-facebook-f"></i></a>
+              <a class="btn btn-light btn-social m-2" href="#"><i class="fab fa-linkedin-in"></i></a>
+              <a class="btn btn-light btn-social m-2" href="#"><i class="fab fa-instagram"></i></a>
           </div>
-        </div>
-
-
+          <div class="d-flex justify-content-center mb-3">
+              <a class="text-white" href="#">Privacy</a>
+              <span class="px-3">|</span>
+              <a class="text-white" href="#">Terms</a>
+              <span class="px-3">|</span>
+              <a class="text-white" href="#">FAQs</a>
+              <span class="px-3">|</span>
+              <a class="text-white" href="#">Help</a>
+          </div>
+          <p class="m-0">&copy; <a class="text-white font-weight-bold" href="#">Domain Name</a>. All Rights Reserved. Designed by <a class="text-white font-weight-bold" href="https://htmlcodex.com">HTML Codex</a>
+          </p>
       </div>
-    </div>
-
-  </section>
-
-
-
-
+  </div>
+  <!-- Footer End -->
 
 
 

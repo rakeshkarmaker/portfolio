@@ -16,7 +16,7 @@ body{
 
 
 .about-cotainer{
-  background-color: #01BBBC;
+  background-color: #0BCEAF;
 
 }
 
@@ -58,6 +58,8 @@ body{
   background-color: #01BBBC;
 }
 
+
+/* ##V2.0 -New added */
 .iconCircle{
   width: 50px;
   height: 50px;
@@ -71,4 +73,51 @@ body{
 .iconCircle:hover{
   background-color: black;
   color: whitesmoke;
+}
+
+
+
+/* ##V2.0 -Button Behavior added & DELETEDS*/
+
+
+.progress {
+  border-radius: 10px;
+}
+
+.progress .progress-bar {
+  width: 0px;
+  border-radius: 10px;
+  transition: 2s;
+}
+
+
+
+
+.expertise-section {
+  background-color: #f8f9fa;
+  padding: 50px 0;
+}
+.expertise-title {
+  text-align: center;
+  margin-bottom: 30px;
+}
+.expertise-item {
+  background-color: #01BBBC;
+  color: white;
+  margin: 5px;
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+
+/* v2.0 making h3, h5 tag always have underlines */
+h3,h5{
+  text-decoration: underline;
+}
+
+/* v2.0 making the image have fixed heights and widths */
+.img-fixed-height {
+  height: 200px; /* Set your desired fixed height */
+  object-fit: cover; /* This will crop the image to fit the container while maintaining aspect ratio */
 }
