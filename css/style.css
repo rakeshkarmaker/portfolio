@@ -124,3 +124,23 @@ h5 {
   object-fit: cover;
   /* This will crop the image to fit the container while maintaining aspect ratio */
 }
+
+
+
+/* V2.3- the css is used in making video have a responsive nature and expand fully trough the available space. */
+ .video-container {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 */
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+    background: #000;
+  }
+
+  .video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
